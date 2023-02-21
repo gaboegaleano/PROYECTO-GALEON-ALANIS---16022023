@@ -35,7 +35,7 @@ app.use('/', indexRouter);
 app.use('/alanis', alanisRouter);
 app.use('/contacto', contactoRouter);
 app.use('/contactoAlanis', contactoAlanisRouter);
-app.use('/galeon', galeonRouter);
+app.use('/galeon', galeonRouter); 
 app.use('/productos', productosRouter);
 app.use('/productosAlanis', productosAlanisRouter);
 app.use('/quienesSomos', quienesSomosRouter);
